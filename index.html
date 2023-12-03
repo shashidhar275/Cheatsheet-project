@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheetsheets!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="prism.css">
+</head>
+<body>
+    <nav>
+        <span class="logo"><img src="copy-icon.svg" alt=""></span>
+        <div class="content">
+            HTML cheatsheet!!
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li>JavaScript variable declaration 
+                <pre class="language-js"><code>var i;</code></pre>
+            </li>
+            <li>C++ Boilerplate
+                <pre class="language-cpp"><code>#include&ltiostream&gt
+using namespace std;
+int main()
+{
+    cout<< 'Hello everyone' << endl;
+}</code></pre>
+            </li>
+            <li>
+                A simple CSS style structure
+                <pre class="language-css"><code>body {
+margin-left: 200px;
+background: #5d9ab2 url("img_tree.png") no-repeat top left;
+}
+
+.center_div {
+border: 1px solid gray;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
+background-color: #d0f0f6;
+text-align: left;
+padding: 8px;
+}</code></pre></li>
+            <li>
+                HTML Boilerplate
+                <pre class="language-html"><code>&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+    
+&lt/body&gt
+&lt/html&gt</code></pre>
+            </li>
+            <li>
+                C code to swap two numbers
+                <pre class="language-c"><code>#include<stdio.h>
+int main() {
+double first, second, temp;
+printf("Enter first number: ");
+scanf("%lf", &first);
+printf("Enter second number: ");
+scanf("%lf", &second);
+
+// value of first is assigned to temp
+temp = first;
+
+// value of second is assigned to first
+first = second;
+
+// value of temp (initial value of first) is assigned to second
+second = temp;
+
+// %.2lf displays number up to 2 decimal points
+printf("\nAfter swapping, first number = %.2lf\n", first);
+printf("After swapping, second number = %.2lf", second);
+return 0;
+                    }</code></pre>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
+
